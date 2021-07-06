@@ -31,7 +31,7 @@ section {
     color:rgb(238, 134, 93);
 }
 
-.heading {
+#heading {
     font-size: 55px;
     font-weight: 700;
     padding-top: 150px;
@@ -158,7 +158,6 @@ section {
 
 .form-part {
     width: 30%;
-    /* padding: 0 3%; */
     margin: 0 12px;
 }
 
@@ -172,6 +171,7 @@ section {
     font-weight: 700;
     margin-bottom: 2px;
     padding-top: 100px;
+    color: rgb(87, 85, 85)
 }
 
 .form-part p {
@@ -185,6 +185,7 @@ section {
 
 #form-background {
     background-image: url(images/food/spoon.jpg);
+    background-position: center right;
     height: 550px;
     padding: 0 3%;
 }
@@ -217,6 +218,52 @@ section {
     margin-top: 20px;
     display: inline-block;
     color: white;
+}
+
+#top-head {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: red;
+}
+
+#heading-team{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
+
+#team-member {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.team-half {
+    width: 25%;
+    box-shadow: 0 0 30px 15px rgb(211, 209, 209);
+}
+
+.team-half img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.member {
+    text-align:center;
+    margin: 0;
+    font-size: 25px;
+    color: tomato;
+}
+
+.member-position {
+    text-align:center;
+    margin: 0;
+    font-size: 20px;
+    color:gray;
 }
 
 footer {
