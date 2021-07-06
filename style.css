@@ -1,11 +1,15 @@
 body {
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 section {
     margin-bottom: 70px;
+}
+
+.stylish-para {
+    font-size: 20px;
+    color: rgb(105, 102, 102);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .order-sec {
@@ -25,7 +29,7 @@ section {
     color:rgb(238, 134, 93);
 }
 
-.order-item h1 {
+.heading {
     font-size: 55px;
     font-weight: 700;
     padding-top: 150px;
@@ -86,10 +90,6 @@ section {
     margin-left: 15%;
 }
 
-.text-size {
-    font-size: 17px;
-}
-
 /* Recipie Section */
 #recipie {
     padding: 2% 28%;
@@ -123,11 +123,6 @@ section {
     font-size: 30px;
 }
 
-.recipie-item p {
-    font-size: 20px;
-    color: rgb(71, 70, 70);
-}
-
 .sbuscribers{
     display: flex;
     margin: 70px;
@@ -138,9 +133,17 @@ section {
 .subscribers-item {
     width: 100%;
     text-align: center;
+    padding-top:70px;
+    padding-bottom: 70px;
 }
 .sbuscribers h4 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.sbuscribers p {
+    margin: 0;
 }
 
 .order-form {
@@ -152,7 +155,8 @@ section {
 
 .form-part {
     width: 30%;
-    padding: 0 3%;
+    /* padding: 0 3%; */
+    margin: 0 12px;
 }
 
 .form-part img {
@@ -160,9 +164,26 @@ section {
     height: 600px;
 }
 
+.form-part h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding-top: 100px;
+}
+
+.form-part p {
+    color: grey;
+}
+
+.form-part h3 {
+    margin: 0;
+    color: grey;
+}
+
 #form-background {
-    background-image: url(images/food/form-background.jpg);
+    background-image: url(images/food/spoon.jpg);
     height: 550px;
+    padding: 0 3%;
 }
 
 .form-part h2 {
@@ -197,7 +218,7 @@ section {
 
 footer {
     padding: 2% 0 10%;
-    background: rgb(24, 24, 36);
+    background: rgb(8, 7, 19);
     text-align: center;
     color:rgb(71, 71, 71)
 }
@@ -210,7 +231,7 @@ footer p {
     color: rgb(53, 90, 90);
     font-weight: 700;
     font-size: 20px;
-    background: black;
+    background: rgb(11, 9, 24);
     display: inline;
 }
 
