@@ -165,3 +165,17 @@ footer p {
     background: black;
     display: inline;
 }
+
+.order-form {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.form-part {
+    width: 30%;
+}
+
+.form-part img {
+    width: 50%;
+}
