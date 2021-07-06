@@ -15,7 +15,7 @@ section {
 }
 /* Order section  */
 
-.order-sec {
+#order-sec {
     display: flex;
 }
 
@@ -60,7 +60,7 @@ section {
 }
 
 /* About Section */
-.about {
+#about {
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ section {
 
 /* Subscriber  */
 
-.sbuscribers{
+#sbuscribers{
     display: flex;
     margin: 70px;
     box-shadow: 0 0 20px 1px rgb(211, 209, 209);
@@ -142,18 +142,18 @@ section {
     padding-top:70px;
     padding-bottom: 70px;
 }
-.sbuscribers h4 {
+#sbuscribers h4 {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 2px;
 }
 
-.sbuscribers p {
+#sbuscribers p {
     margin: 0;
 }
 
 /* Form Section  */
-.order-form {
+#order-form {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
