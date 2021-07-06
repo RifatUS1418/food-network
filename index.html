@@ -74,21 +74,22 @@
         <div class="form-part">
             <h1>Fatema Akter</h1>
             <h3>Head chef</h3>
-            <p>Welcome to Burger King website. Here we try to share our vision about food quality, our mission about
+            <p>Welcome to Food Network. Here we try to share our vision about food quality, our mission about
                 customer’s satisfaction and introducing services that we provide for each one of you.</p>
 
             <p> We offer fast food, served fresh with the highest quality of ingredients: fresh, handcut chicken, buns
                 baked fresh in our own bakeries and the most delicious hot dogs with a variety of toppings.</p>
         </div>
-        <div class="form-part">
+        <div class="form-part" id="form-background">
             <form action="">
                 <h2>Take a<br> Reservation</h2>
-                <input type="text">
-                <input type="email">
-                <input type="phone">
-                <input type="date">
-                <input type="text">
-                <button>ORDER NOW</button>
+                <input class="input" type="text" placeholder="Name*" required>
+                <input class="input" type="email" placeholder="E-mail*" required>
+                <input class="input" type="number" placeholder="Phone*" required>
+                <input class="input" type="datetime-local">
+                <textarea class="input" id="msg" placeholder="Massage"></textarea>
+                <!-- <button id="order-button">ORDER NOW</button>-->
+                <input class="input" type="button" value="ORDER NOW" id="button">
             </form>
         </div>
     </section>
