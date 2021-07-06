@@ -251,6 +251,7 @@ section {
 .team-half {
     width: 25%;
     box-shadow: 0 0 30px 15px rgb(211, 209, 209);
+    padding-top: 10px;
 }
 
 .team-half img {
